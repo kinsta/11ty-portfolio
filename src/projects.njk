@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+title: Projects
+---
+
+<div class="projects-container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+        {% for project in collections.projects %}
+            <div class="project-card">
+                <div class="project-header">
+                    <i class="fa-regular fa-folder-open folder-icon"></i>
+                    <div class="small-icons">
+                        <a href={{project.data.gitHubURL}}><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <h3>{{project.data.title}}</h3>
+                <p>{{project.data.description}}</p>
+                <a href="{{project.url}}" class="cta-btn">Read more</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
