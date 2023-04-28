@@ -1,3 +1,5 @@
+[![How To Craft a Stylish Static Website with Eleventy](https://user-images.githubusercontent.com/2342458/235165020-59964255-e651-45fd-a236-2690e732117e.png)](https://kinsta.com/blog/eleventy/)
+
 # How To Craft a Stylish Static Website with Eleventy
 Learn how to use Eleventy to craft a stunning and functional static portfolio website without needing a server-side language or database.
 
