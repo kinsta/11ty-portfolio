@@ -6,11 +6,10 @@ Learn how to use Eleventy to craft a stunning and functional static portfolio we
 Read the [full article](https://kinsta.com/blog/eleventy/).
 
 ## Kinsta Application Hosting Setup
-## Dependency Management
+### Dependency Management
 
 Kinsta automatically installs dependencies defined in your `package.json` file during the deployment process.
 
-## Web Server Setup
 ### Port
 
 Kinsta automatically sets the `PORT` environment variable. You should **not** define it yourself and you should **not** hard-code it into the application.
