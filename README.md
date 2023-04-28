@@ -5,6 +5,11 @@ Learn how to use Eleventy to craft a stunning and functional static portfolio we
 
 Read the [full article](https://kinsta.com/blog/eleventy/).
 
+## Installation
+1. Clone or fork the repository.
+2. Run `npm install` to install all dependencies.
+3. Run `npm run dev` to run the development server.
+
 ## Kinsta Application Hosting Setup
 ### Dependency Management
 
